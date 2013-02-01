@@ -52,7 +52,7 @@
 	pa = 'padding-',
 	zi =':0px'+imp,	
 	S,
-	h = $("head")[append](style+".CRZ{table-layout:fixed;}.CRZ td,.CRZ th{"+pa+left+zi+pa+"right"+zi+"overflow:hidden}.CRC{height:0px;"+position+":relative;}.CRG{margin-left:-5px;"+position+absolute+"z-index:5;}.CRG .CRZ{"+position+absolute+"background-color:red;filter:alpha(opacity=1);opacity:0;width:10px;height:100%;top:0px}.CRL{"+position+absolute+"width:1px}.CRD{ border-left:1px dotted black"+styleEnd);
+	h = $("head")[append](style+".CRZ{table-layout:fixed;}.CRZ td,.CRZ th{"+pa+left+zi+pa+"right"+zi+"overflow:hidden}.CRC{height:0px;"+position+":relative;}.CRG{margin-left:-5px;"+position+absolute+"z-index:1;}.CRG .CRZ{"+position+absolute+"background-color:red;filter:alpha(opacity=1);opacity:0;width:10px;height:100%;top:0px}.CRL{"+position+absolute+"width:1px}.CRD{ border-left:1px dotted black"+styleEnd);
 	
 	try {
 		S = sessionStorage;
